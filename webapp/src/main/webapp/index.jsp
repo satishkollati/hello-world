@@ -8,7 +8,7 @@
   <label for="fname">First name:</label><br>
   <input type="text" id="fname" name="fname" value="Harish"><br>
   <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value="babu"><br><br>
+  <input type="text" id="lname" name="lname" value="tismo"><br><br>
   <input type="submit" value="Submit">
 </form> 
 
