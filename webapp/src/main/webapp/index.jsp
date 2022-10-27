@@ -14,7 +14,7 @@
 
 <link rel="pingback" href="http://TismoHub/xmlrpc.php" />
 
-<title>Fun@Tismo: Wealthy Thursday &#8211; Tismohub</title>
+<title>Fun@Tismo: Wealthy Harish!!! &#8211; Tismohub</title>
 
 <meta name='robots' content='noindex,nofollow' />
 <link rel='dns-prefetch' href='//TismoHub' />
