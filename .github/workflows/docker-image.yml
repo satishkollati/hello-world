@@ -19,7 +19,7 @@ jobs:
       uses: aws-actions/configure-aws-credentials@v2
       with:
           aws-region: us-east-1
-          role-to-assume: arn:aws:iam::347260664094:role/ecrpush
+          role-to-assume: arn:aws:i
 
     - name: Login to Amazon ECR
       id: login-ecr
