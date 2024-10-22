@@ -1,0 +1,20 @@
+name: Build
+on:
+ workflow_dispatch:
+ inputs:
+  java_version:
+    type: string
+    required: true
+jobs:
+ clone&build:
+  runs-on: ubuntu-latest
+  steps: 
+    - name: clone
+      use: actions/checkout@v4
+    - name: install java
+      use: actions/setup-java@v4
+       with: 
+         java-version: '${{inputs.java_version}}'
+    - name: build
+      run: mvn clean package -DskipTests
+ 
